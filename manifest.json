@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "version": "0.0.1",
+    "name": "My IP",
+    
+    "description": "Find out what is your external IP simply and quickly.",
+    "author": "Diego Martins de Pinho",
+    "icons": {
+            "16": "icon-16.png",
+            "48": "icon-48.png",
+            "128": "icon-128.png"
+    },
+    "action": {
+   	 "default_title": "Meu IP",
+   	 "default_popup": "index.html",
+   	 "default_icon": "icon.png"
+    }
+}
