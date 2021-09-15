@@ -6,13 +6,16 @@
     "description": "Find out what is your external IP simply and quickly.",
     "author": "Diego Martins de Pinho",
     "icons": {
-            "16": "icon-16.png",
-            "48": "icon-48.png",
-            "128": "icon-128.png"
+            "16": "assets/img/icon-16.png",
+            "48": "assets/img/icon-48.png",
+            "128": "assets/img/icon-128.png"
     },
     "action": {
    	 "default_title": "Meu IP",
    	 "default_popup": "index.html",
-   	 "default_icon": "icon.png"
+   	 "default_icon": "assets/img/icon.png",
+     "content_security_policy": "script-src 'self' assets/js/ga.js; object-src 'self'"
     }
+    
+
 }
